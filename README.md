@@ -4,7 +4,7 @@ Objective: construction of cheap obstacle avoidance system for drone using micro
 (non conventional method of using mavlink commands connection to flight controller )
 # Stages of the project –
 1. To make a code to detect obstacles using ultrasonic sensors in four directions at once.
-2. To write a code to read the receiver values.
+2. To write a code to read the receiver values. (repo: https://github.com/varigondavamsi/Arduino-PWM-receiver)
 3. Write a code to generate pwm values.
 4. To measure the change in motion of the drone with change in receiver values.
 5. Combine all these to make a obstacle avoidance drone with proper time stamping analysis of input and output signals.
