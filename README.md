@@ -8,10 +8,10 @@ Objective: construction of cheap obstacle avoidance system for drone using micro
 3. Write a code to generate pwm values.
 4. To measure the change in motion of the drone with change in receiver values.
 5. Combine all these to make a obstacle avoidance drone with proper time stamping analysis of input and output signals.
- *Current Status
- The 1st three stages were easy to do.
- But, the project has to be stopped due to following reasons
- 1. There is a considerable delay in change of the pwm signal after the obstacle detection.  
- 2. Analysing the pwm signals and changing the values as per the obstacles is not a good option as this processing delay causes considerable changes in the drone motion.
+# Current Status
+The 1st three stages were easy to do.
+But, the project has to be stopped due to following reasons
+1. There is a considerable delay in change of the pwm signal after the obstacle detection.  
+2. Analysing the pwm signals and changing the values as per the obstacles is not a good option as this processing delay causes considerable changes in the drone motion.
   
 
