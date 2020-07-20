@@ -1,0 +1,19 @@
+/*reading values from receiver and writing it to flight controller
+make copy of the code as per the number of channels you'd like to control*/
+#include <Servo.h>
+Servo myservo; 
+unsigned long duration1;
+int ch1 = A0;
+void setup() {
+  myservo.attach(6);
+  myservo.writeMicroseconds(1000);
+  Serial.begin(57600);
+  pinMode(ch1, INPUT);
+}
+
+void loop() {
+    duration1 = pulseIn(ch1, HIGH);
+    Serial.print("thor:"); Serial.println(duration1); 
+    myservo.writeMicroseconds(duration1);    
+  
+}
